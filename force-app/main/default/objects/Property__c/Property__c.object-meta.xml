@@ -55,6 +55,7 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <sharingModel>ReadWrite</sharingModel>
     <label>Property</label>
     <nameField>
         <label>Property Name</label>
@@ -64,6 +65,5 @@
     </nameField>
     <pluralLabel>Properties</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
