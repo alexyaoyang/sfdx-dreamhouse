@@ -11,6 +11,7 @@ global with sharing class EinsteinVisionController {
     }
 
     // You can upload the 'einstein_platform.pem' into your Salesforce org as 'File' sObject and read it as below
+    // Something that might be useful for ZI
     private static String getAccessToken() {
         if (settings == null || String.isEmpty(settings.Einstein_Vision_Email__c)) {
             throw new AuraHandledException('Cannot create Einstein Vision token: "Einstein Vision Email" not defined in Custom Settings');
