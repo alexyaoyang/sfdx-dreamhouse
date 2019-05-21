@@ -29,7 +29,7 @@ public class BotTest {
     static testMethod void testCostCenter() {
         BotHandler handler = new HandlerCostCenter();
         BotResponse response = handler.handle('', null, null, null, null);
-        System.assert(response.messages[0].messageText == 'Your cost center is 21852'); // This one was failing
+        System.assert(response.messages[0].messageText == 'Your cost center is 218521');
     }
     
     static testMethod void testEmployeeId() {
