@@ -20,5 +20,6 @@ jobs:
         npm install
         cat .github/workflows/main.yml
         echo ${{ secrets.ALEX_SECRET }}
+        sfdx
       env:
         CI: true
