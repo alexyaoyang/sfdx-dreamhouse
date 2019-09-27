@@ -14,7 +14,6 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: '10.15.1'
-    - run: npm install
     - name: npm install and cat
       run: |
         npm install
