@@ -7,14 +7,16 @@ on:
 
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest
-    
+  node-ci:
     steps:
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
+    - uses: actions/checkout@master
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '10.15.1'
+    - run: npm install
+    - name: npm install and cat
       run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+        npm install
+        cat /.github/workflows/main.yml
+      env:
+        CI: true
