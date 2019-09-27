@@ -1,0 +1,19 @@
+{
+  "name": "sfdx-dreamhouse",
+  "version": "1.0.0",
+  "description": "> ** PLEASE NOTE ** > > This version of the DreamHouse sample application is now deprecated. It will be removed at a future date. Please use the [official DreamHouse repo](https://github.com/dreamhouseapp/dreamhouse-sfdx) instead.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexyaoyang/sfdx-dreamhouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexyaoyang/sfdx-dreamhouse/issues"
+  },
+  "homepage": "https://github.com/alexyaoyang/sfdx-dreamhouse#readme"
+}
