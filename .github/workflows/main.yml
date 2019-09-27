@@ -18,7 +18,7 @@ jobs:
     - name: npm install and cat
       run: |
         npm install
-        cat /.github/workflows/main.yml
+        cat .github/workflows/main.yml
         echo ${{ secrets.ALEX_SECRET }}
       env:
         CI: true
