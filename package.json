@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/alexyaoyang/sfdx-dreamhouse/issues"
   },
-  "homepage": "https://github.com/alexyaoyang/sfdx-dreamhouse#readme"
+  "homepage": "https://github.com/alexyaoyang/sfdx-dreamhouse#readme",
   "devDependencies": {
     "eslint": "^4.3.0",
     "sfdx-cli": "^7.26.0"
