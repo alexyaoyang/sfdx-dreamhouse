@@ -8,6 +8,7 @@ on:
 
 jobs:
   node-ci:
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
     - uses: actions/setup-node@v1
